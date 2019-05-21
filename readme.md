@@ -18,7 +18,7 @@ Layerise styled hyper theme
 
 ### Hyper Store
 
-Get the theme on the official [Hyper Store](https://hyper.is/plugins/hyperlayerise).
+Get the theme on the official [Hyper Store](https://hyper.is/plugins/hyperise).
 
 ### Hyper plugin manager
 
