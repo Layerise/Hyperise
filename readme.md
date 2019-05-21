@@ -6,14 +6,6 @@ Hyperise
 Layerise styled hyper theme
 </h4>
 
-## Contents
-
-- [Install](#install)
-- [Extra](#extra)
-- [Related](#related)
-- [Team](#team)
-- [License](#license)
-
 ## Install
 
 ### Hyper Store
