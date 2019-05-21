@@ -15,6 +15,39 @@ const lightWhite = '#FFFFFF';
 const darkBlue = '#010032';
 const lightBlue = '#72778C';
 
+const defaultConfig = {
+  fontFamily: '"SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace',
+  fontSize: 20,
+  foregroundColor,
+  backgroundColor,
+  borderColor: overlap,
+  cursorColor: blue,
+  minimal: false,
+  colors: {
+    black: backgroundColor,
+    red,
+    green,
+    yellow,
+    blue,
+    magenta,
+    cyan,
+    white,
+    lightWhite: foregroundColor,
+    lightBlack,
+    lightBlue,
+    darkBlue
+  }
+};
+
+// Check if Hyperise configuration exists in ~/.hyper.js. If not, fall back to default configuration.
+const checkConfig = (config, setting) =>
+  (config.hasOwnProperty('hyperise') && config.hyperise[setting]) || defaultConfig[setting];
+const checkConfigColor = (config, colorName) =>
+  (config.hasOwnProperty('hyperise') && config.hyperise.colors && config.hyperise.colors[colorName]) ||
+  defaultConfig.colors[colorName];
+// Setup vibrancy
+exports.onWindow = browserWindow => browserWindow.setVibrancy('ultra-dark');
+
 exports.decorateConfig = config => {
   return Object.assign({}, config, {
     backgroundColor,
