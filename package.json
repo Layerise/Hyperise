@@ -1,10 +1,10 @@
 {
-  "name": "hyperlayerise",
+  "name": "@layerise/hyperise",
   "version": "1.0.0",
   "main": "index.js",
   "description": "Layerise Hyper theme",
   "license": "MIT",
-  "repository": "layerise/hyperlayerise",
+  "repository": "layerise/hyperise",
   "author": {
     "name": "Layerise",
     "email": "hello@layerise.com",
