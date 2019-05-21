@@ -1,0 +1,32 @@
+{
+  "name": "hyperlayerise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Layerise Hyper theme",
+  "license": "MIT",
+  "repository": "layerise/hyperlayerise",
+  "author": {
+    "name": "Layerise",
+    "email": "hello@layerise.com",
+    "url": "https://layerise.com"
+  },
+  "maintainers": [
+    {
+      "name": "Layerise",
+      "email": "hello@layerise.com",
+      "url": "https://layerise.com"
+    }
+  ],
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hyper",
+    "hyperterm",
+    "dark",
+    "theme",
+    "syntax",
+    "zeit",
+    "layerise"
+  ]
+}
